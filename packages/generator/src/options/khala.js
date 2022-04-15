@@ -1,7 +1,12 @@
-import { khala } from "@phala/typedefs";
+import { versionedKhala, typesChain } from "@phala/typedefs";
 
 const options = {
-  types: khala
+  typesBundle: {
+    spec: {
+      khala: versionedKhala,
+    },
+  },
+  typesChain,
 }
 
 console.log(options);

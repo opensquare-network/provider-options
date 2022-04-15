@@ -1,4 +1,5 @@
 module.exports = {
+  basiliskOptions: require("./basilisk"),
   bifrostOptions: require("./bifrost"),
   crustOptions: require("./crust"),
   karuraOptions: require("./karura"),
