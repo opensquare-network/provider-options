@@ -2,29 +2,29 @@
 # yarn lockfile v1
 
 
-"@acala-network/api-derive@4.0.4-6":
-  version "4.0.4-6"
-  resolved "https://registry.npmjs.org/@acala-network/api-derive/-/api-derive-4.0.4-6.tgz#3fa686803f85a18016f0e5e4fad715201868d423"
-  integrity sha512-cFbhO8EEdUAXyTgZm423tFRuPmO1OOrKh7KzymQsWJ6wV8Wn5yL1tm61PWZJ60N68BwdiJEWfX3hevgBXqLZ1g==
+"@acala-network/api-derive@4.1.2-0":
+  version "4.1.2-0"
+  resolved "https://registry.npmjs.org/@acala-network/api-derive/-/api-derive-4.1.2-0.tgz#b1e4d496621a802f8fafdb97fc2f6488c92ce393"
+  integrity sha512-XHEytPp4/iEunPkq0nIw0R4by5CF2aJV42xdC/g9r8L3ZksSKp/sHRd2qnKZJhfI6J/PGto5pf6a8bG4ML1t4w==
   dependencies:
-    "@acala-network/types" "4.0.4-6"
+    "@acala-network/types" "4.1.2-0"
     "@babel/runtime" "^7.10.2"
     "@open-web3/orml-types" "^1.0.2-4"
     "@polkadot/api-derive" "^7.1.1"
 
-"@acala-network/type-definitions@4.0.4-6":
-  version "4.0.4-6"
-  resolved "https://registry.npmjs.org/@acala-network/type-definitions/-/type-definitions-4.0.4-6.tgz#7defceb7b63cbc793eed80c6477288ab9554e961"
-  integrity sha512-NJVkUJvxFASc8PCRRLik5YEBGpC8HcjMgYIQQtw8MDsROKMEMu1MbwXhAbEtpt8bWeeyOoofyOrmAtyMH/0m5A==
+"@acala-network/type-definitions@4.1.2-0":
+  version "4.1.2-0"
+  resolved "https://registry.npmjs.org/@acala-network/type-definitions/-/type-definitions-4.1.2-0.tgz#170e9e1d00e4c03e1430e5b4df8852ba1e8953b6"
+  integrity sha512-iQtxXGoFE9f4sHYCJidFVE/5T2HAuc9LTOh5C507wcRtReXII8QV5dE9QbdBcmflOXB8JB1gYrJZvsbD66hkUg==
   dependencies:
     "@open-web3/orml-type-definitions" "^1.0.2-4"
 
-"@acala-network/types@4.0.4-6":
-  version "4.0.4-6"
-  resolved "https://registry.npmjs.org/@acala-network/types/-/types-4.0.4-6.tgz#e2cbe6354efb53e01de97ce5546bd0888ba293d4"
-  integrity sha512-ZJl09xrX88WrXDGhnwyp36ZieoZaIio2hNbS53sWIRykdUq/XMhPd2W8G9XXmXLwWKO3RmcMlgZln2TzWids+w==
+"@acala-network/types@4.1.2-0":
+  version "4.1.2-0"
+  resolved "https://registry.npmjs.org/@acala-network/types/-/types-4.1.2-0.tgz#75aaf4d15d1ef311f94066846a7f55ce37d896ff"
+  integrity sha512-FD17aIiu4tAlLARtQDc9H5DXcErxjqoZN3J2xXwFJSOZjT2ZcEDytEJbZngb6+hTHD994S1WW0wPOw5DkHqqWQ==
   dependencies:
-    "@acala-network/type-definitions" "4.0.4-6"
+    "@acala-network/type-definitions" "4.1.2-0"
     "@babel/runtime" "^7.10.2"
     "@open-web3/api-mobx" "^1.0.2-4"
     "@open-web3/orml-types" "^1.0.2-4"
