@@ -316,7 +316,7 @@
     memoizee "^0.4.15"
     rxjs "^7.2.0"
 
-"@open-web3/orml-type-definitions@0.9.4-38", "@open-web3/orml-type-definitions@^0.9.4-38", "@open-web3/orml-type-definitions@^0.9.4-7":
+"@open-web3/orml-type-definitions@0.9.4-38", "@open-web3/orml-type-definitions@^0.9.4-35", "@open-web3/orml-type-definitions@^0.9.4-38", "@open-web3/orml-type-definitions@^0.9.4-7":
   version "0.9.4-38"
   resolved "https://registry.npmjs.org/@open-web3/orml-type-definitions/-/orml-type-definitions-0.9.4-38.tgz#fc7642f6a518da2618ae39fa76fe046ee57c1e80"
   integrity sha512-kV0++JlRLEf7Z1y+Jm+792zqx6Q7dzpGP73rJJmQrBaeTML5mQzu4veZ24TVtcLV6hsGjUU/ixrJODNj6CCuZQ==
@@ -673,6 +673,13 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@scure/base/-/base-1.0.0.tgz#109fb595021de285f05a7db6806f2f48296fcee7"
   integrity sha512-gIVaYhUsy+9s58m/ETjSJVKHhKTBMmcRb9cEV5/5dwvfDlfORjKrFsDeDHWRrm6RjcPvCLZFwGJjAjLj1gg4HA==
+
+"@sora-substrate/type-definitions@^1.8.27":
+  version "1.8.27"
+  resolved "https://registry.npmjs.org/@sora-substrate/type-definitions/-/type-definitions-1.8.27.tgz#4ed1fe4280c4e317908f1e18b4675eec7b501278"
+  integrity sha512-SLOUGSD4od2gHwCIeP8ORWAzm574pCg6n8nE+aRngLs5W6IHOqlJMZeckOjD1yy9veCyoRU2ruZ4m3JwEfQVSA==
+  dependencies:
+    "@open-web3/orml-type-definitions" "^0.9.4-35"
 
 "@substrate/connect-extension-protocol@^1.0.0":
   version "1.0.0"

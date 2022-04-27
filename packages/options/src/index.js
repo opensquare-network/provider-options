@@ -6,4 +6,5 @@ module.exports = {
   khalaOptions: require("./khala"),
   kintsugiOptions: require("./kintsugi"),
   polkadexOptions: require("./polkadex"),
+  soraOptions: require("./sora"),
 }
