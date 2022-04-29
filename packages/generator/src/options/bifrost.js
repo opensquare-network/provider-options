@@ -1,29 +1,17 @@
 import {
-  rpc as bifrostRpc,
-  signedExtensions as bifrostSignedExtensions,
-  types as bifrostTypes,
-  typesAlias as bifrostTypeAlias,
-  typesBundle as bifrostTypesBundle,
-} from "@bifrost-finance/types";
+  rpc,
+  signedExtensions,
+  types,
+  typesAlias,
+  typesBundle,
+} from "@bifrost-finance/type-definitions";
 
 const options = {
-  rpc: {
-    ...bifrostRpc,
-  },
-  types: {
-    ...bifrostTypes,
-  },
-  typesAlias: {
-    ...bifrostTypeAlias,
-  },
-  typesBundle: {
-    spec: {
-      ...bifrostTypesBundle,
-    },
-  },
-  signedExtensions: {
-    ...bifrostSignedExtensions,
-  },
+  rpc,
+  types,
+  typesAlias,
+  typesBundle,
+  signedExtensions,
 };
 
 (() => {
