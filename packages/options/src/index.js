@@ -7,4 +7,5 @@ module.exports = {
   kintsugiOptions: require("./kintsugi"),
   polkadexOptions: require("./polkadex"),
   soraOptions: require("./sora"),
+  crabOptions: require("./crab"),
 }
