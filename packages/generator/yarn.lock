@@ -471,6 +471,11 @@
   dependencies:
     "@types/node" "*"
 
+"@zeitgeistpm/type-defs@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.npmjs.org/@zeitgeistpm/type-defs/-/type-defs-0.7.0.tgz#0f446af50a7664798b0b856f7da6fd885dd82ea1"
+  integrity sha512-Qk1jtpjYkQBT7KcGfzeW5F8gfGpMMN1uQOM+nR/IBQdc9pR59M15StL8ZPceJd4biLrqHNC9vuAw1oFgjG+/fA==
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"

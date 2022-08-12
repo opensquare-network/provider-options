@@ -12,6 +12,7 @@
     "@interlay/interbtc-types": "1.5.10",
     "@open-web3/orml-api-derive": "1.1.4",
     "@phala/typedefs": "^0.2.30",
-    "@sora-substrate/type-definitions": "^1.8.27"
+    "@sora-substrate/type-definitions": "^1.8.27",
+    "@zeitgeistpm/type-defs": "^0.7.0"
   }
 }
