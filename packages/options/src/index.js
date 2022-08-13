@@ -9,5 +9,6 @@ module.exports = {
   soraOptions: require("./sora"),
   crabOptions: require("./crab"),
   centrifugeOptions: require("./centrifuge"),
+  altairOptions: require("./altari"),
   zeitgeistOptions: require("./zeitgeist"),
 }
