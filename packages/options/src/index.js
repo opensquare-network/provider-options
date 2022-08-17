@@ -11,4 +11,5 @@ module.exports = {
   centrifugeOptions: require("./centrifuge"),
   altairOptions: require("./altari"),
   zeitgeistOptions: require("./zeitgeist"),
+  shidenOptions: require("./shiden"),
 }
