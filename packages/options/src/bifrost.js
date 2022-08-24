@@ -690,6 +690,7 @@ const bifrostOptions = {
           }
         }, "types": [{
           "minmax": [0, 901], "types": {
+            "DispatchErrorModule": "DispatchErrorModuleU8",
             "CallOf": "Call",
             "DispatchTime": { "_enum": { "At": "BlockNumber", "After": "BlockNumber" } },
             "ScheduleTaskIndex": "u32",
@@ -1026,6 +1027,7 @@ const bifrostOptions = {
           }
         }, {
           "minmax": [902, null], "types": {
+            "DispatchErrorModule": "DispatchErrorModuleU8",
             "CallOf": "Call",
             "DispatchTime": { "_enum": { "At": "BlockNumber", "After": "BlockNumber" } },
             "ScheduleTaskIndex": "u32",
@@ -1548,6 +1550,7 @@ const bifrostOptions = {
           }
         }, "types": [{
           "minmax": [0, 901], "types": {
+            "DispatchErrorModule": "DispatchErrorModuleU8",
             "CallOf": "Call",
             "DispatchTime": { "_enum": { "At": "BlockNumber", "After": "BlockNumber" } },
             "ScheduleTaskIndex": "u32",
@@ -1885,6 +1888,7 @@ const bifrostOptions = {
           }
         }, {
           "minmax": [902, null], "types": {
+            "DispatchErrorModule": "DispatchErrorModuleU8",
             "CallOf": "Call",
             "DispatchTime": { "_enum": { "At": "BlockNumber", "After": "BlockNumber" } },
             "ScheduleTaskIndex": "u32",

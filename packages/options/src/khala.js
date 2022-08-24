@@ -3,6 +3,7 @@ const khalaOptions = {
     "spec": {
       "khala": [{
         "minmax": [0, 10], "types": {
+          "DispatchErrorModule": "DispatchErrorModuleU8",
           "ChainId": "u8",
           "Address": "MultiAddress",
           "LookupSource": "MultiAddress",
@@ -176,6 +177,7 @@ const khalaOptions = {
         }
       }, {
         "minmax": [11, null], "types": {
+          "DispatchErrorModule": "DispatchErrorModuleU8",
           "Address": "MultiAddress",
           "LookupSource": "MultiAddress",
           "Keys": "AccountId",
@@ -350,6 +352,7 @@ const khalaOptions = {
     }
   }, "typesChain": {
     "Khala": {
+      "DispatchErrorModule": "DispatchErrorModuleU8",
       "Address": "MultiAddress",
       "LookupSource": "MultiAddress",
       "Keys": "AccountId",
@@ -521,6 +524,7 @@ const khalaOptions = {
         "rewardDebt": "Balance"
       }
     }, "Khala Testnet": {
+      "DispatchErrorModule": "DispatchErrorModuleU8",
       "Address": "MultiAddress",
       "LookupSource": "MultiAddress",
       "Keys": "AccountId",
