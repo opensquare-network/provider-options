@@ -454,6 +454,4 @@ const crustOptions = {
   }
 }
 
-module.exports = {
-  crustOptions,
-}
+module.exports = crustOptions;
