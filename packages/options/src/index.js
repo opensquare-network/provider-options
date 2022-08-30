@@ -12,4 +12,5 @@ module.exports = {
   altairOptions: require("./altari"),
   zeitgeistOptions: require("./zeitgeist"),
   shidenOptions: require("./shiden"),
+  litentryOptions: require("./litentry"),
 }
