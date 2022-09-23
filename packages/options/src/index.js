@@ -13,4 +13,5 @@ module.exports = {
   zeitgeistOptions: require("./zeitgeist"),
   shidenOptions: require("./shiden"),
   litentryOptions: require("./litentry"),
+  parallelOptions: require("./parallel"),
 }
