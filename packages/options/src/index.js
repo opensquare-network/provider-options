@@ -1,6 +1,8 @@
 module.exports = {
   basiliskOptions: require("./basilisk"),
   basilisk: require("./basilisk"),
+  hydradxOptions: require("./hydradx"),
+  hydradx: require("./hydradx"),
   bifrostOptions: require("./bifrost"),
   bifrost: require("./bifrost"),
   crustOptions: require("./crust"),
