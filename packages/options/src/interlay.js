@@ -1,4 +1,4 @@
-const kint = {
+const intr = {
   "types": [
     {
       "minmax": [
@@ -393,12 +393,14 @@ const kint = {
   }
 }
 
-const kintsugiOptions = {
+const interlayOptions = {
   "typesBundle": {
     "spec": {
-      "kintsugi-parachain": kint
+      "interlay-parachain": intr,
+      "interbtc-parachain": intr,
+      "interbtc-standalone": intr,
     }
   }
 }
 
-module.exports = kintsugiOptions;
+module.exports = interlayOptions;

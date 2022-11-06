@@ -13,6 +13,8 @@ module.exports = {
   khala: require("./khala"),
   kintsugiOptions: require("./kintsugi"),
   kintsugi: require("./kintsugi"),
+  interlayOptions: require("./interlay"),
+  interlay: require("./interlay"),
   polkadexOptions: require("./polkadex"),
   polkadex: require("./polkadex"),
   soraOptions: require("./sora"),
