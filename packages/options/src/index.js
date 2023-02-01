@@ -32,4 +32,6 @@ module.exports = {
   litentry: require("./litentry"),
   parallelOptions: require("./parallel"),
   parallel: require("./parallel"),
+  edgeware: require("./edgeware"),
+  edgewareOptions: require("./edgeware"),
 }
