@@ -34,4 +34,6 @@ module.exports = {
   parallel: require("./parallel"),
   edgeware: require("./edgeware"),
   edgewareOptions: require("./edgeware"),
+  darwinia: require("./darwinia"),
+  darwiniaOptions: require("./darwinia"),
 }
