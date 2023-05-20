@@ -1,3 +1,6 @@
+const { options: moonbeam } = require("./moonbeam");
+const { options: moonriver } = require("./moonriver");
+
 module.exports = {
   basiliskOptions: require("./basilisk"),
   basilisk: require("./basilisk"),
@@ -36,4 +39,8 @@ module.exports = {
   edgewareOptions: require("./edgeware"),
   darwinia: require("./darwinia"),
   darwiniaOptions: require("./darwinia"),
+  moonbeam,
+  moonbeamOptions: moonbeam,
+  moonriver,
+  moonriverOptions: moonriver,
 }
