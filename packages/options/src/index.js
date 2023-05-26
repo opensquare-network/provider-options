@@ -1,5 +1,7 @@
 const { options: moonbeam } = require("./moonbeam");
 const { options: moonriver } = require("./moonriver");
+const { karuraOptions } = require("./karura");
+const { acalaOptions } = require("./acala");
 
 module.exports = {
   basiliskOptions: require("./basilisk"),
@@ -10,8 +12,10 @@ module.exports = {
   bifrost: require("./bifrost"),
   crustOptions: require("./crust"),
   crust: require("./crust"),
-  karuraOptions: require("./karura"),
-  karura: require("./karura"),
+  karuraOptions,
+  karura: karuraOptions,
+  acalaOptions,
+  acala: acalaOptions,
   khalaOptions: require("./khala"),
   khala: require("./khala"),
   kintsugiOptions: require("./kintsugi"),

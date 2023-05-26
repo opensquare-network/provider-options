@@ -1,4 +1,4 @@
-const karura = {
+const acala = {
   "rpc": {
     "oracle": {
       "getValue": {
@@ -5082,14 +5082,14 @@ const karura = {
   }
 }
 
-const karuraOptions = {
+const acalaOptions = {
   "typesBundle": {
     "spec": {
-      karura,
+      acala,
     }
   }
 }
 
 module.exports = {
-  karuraOptions,
-};
+  acalaOptions,
+}
