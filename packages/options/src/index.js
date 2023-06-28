@@ -47,4 +47,6 @@ module.exports = {
   moonbeamOptions: moonbeam,
   moonriver,
   moonriverOptions: moonriver,
+  stafi: require("./stafi"),
+  stafiOptions: require("./stafi"),
 }
