@@ -2,6 +2,7 @@ const { options: moonbeam } = require("./moonbeam");
 const { options: moonriver } = require("./moonriver");
 const { karuraOptions } = require("./karura");
 const { acalaOptions } = require("./acala");
+const { vara } = require("./vara");
 
 module.exports = {
   basiliskOptions: require("./basilisk"),
@@ -49,4 +50,6 @@ module.exports = {
   moonriverOptions: moonriver,
   stafi: require("./stafi"),
   stafiOptions: require("./stafi"),
+  vara,
+  varaOptions: vara,
 }
