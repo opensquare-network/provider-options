@@ -29,6 +29,7 @@ const statemineOptions = {
   "typesBundle": {
     "spec": {
       "statemine": statemine,
+      "westmint": statemine,
     }
   }
 }
