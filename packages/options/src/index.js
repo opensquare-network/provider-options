@@ -52,8 +52,4 @@ module.exports = {
   stafiOptions: require("./stafi"),
   vara,
   varaOptions: vara,
-  statemine: require("./statemine"),
-  statemineOptions: require("./statemine"),
-  westmint: require("./statemine"),
-  westmintOptions: require("./statemine"),
 }
