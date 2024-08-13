@@ -52,6 +52,6 @@ module.exports = {
   stafiOptions: require("./stafi"),
   vara,
   varaOptions: vara,
-  astar: require("astar"),
+  astar: require("./astar"),
   shibuya: require("./shibuya"),
 }
