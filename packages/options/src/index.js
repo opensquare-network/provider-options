@@ -54,4 +54,5 @@ module.exports = {
   varaOptions: vara,
   astar: require("./astar"),
   shibuya: require("./shibuya"),
+  ajuna: require("./ajuna"),
 }
