@@ -3,7 +3,6 @@ const { options: moonriver } = require("./moonriver");
 const { karuraOptions } = require("./karura");
 const { acalaOptions } = require("./acala");
 const { vara } = require("./vara");
-const { gargantua } = require("./gargantua");
 
 module.exports = {
   basiliskOptions: require("./basilisk"),
@@ -56,6 +55,4 @@ module.exports = {
   astar: require("./astar"),
   shibuya: require("./shibuya"),
   ajuna: require("./ajuna"),
-  gargantua,
-  nexus: gargantua,
 }
